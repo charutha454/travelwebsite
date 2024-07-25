@@ -1,0 +1,113 @@
+:root{
+    --x:yellow /* to give theme */
+}
+#navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+@media(max-width:600px){
+    #welcome h1{
+        font-size: 20px;
+    }
+    #welcome h2{
+        font-size: 50px;
+    }
+    #welcome h3{
+        font-size: 50px;
+    }
+    .nav-item{
+        display: block;
+        width: 100%;
+    }
+    .nav-item li{
+        display: none;
+    }
+    #main{
+        display: none;
+    }
+    #welcome{
+        display: none;
+    }
+    #input-group{
+        display: none;
+    }
+    .list-group-item{
+        display: block;
+        width: 100%;
+    }
+    #us{
+        display: block;
+        width: 100%;
+    }
+
+}
+*{
+    font-family: "Arsenal SC", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+#main{
+    background-image: url(./pexels-pixabay-531602.jpg);
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#welcome{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+#welcome h1{
+    color: white;
+    font-size: 30px;
+}
+#welcome h2{
+    color: white;
+    font-size: 150px;
+}
+#welcome h3{
+    color: white;
+    font-size: 100px;
+}
+.card-title{
+    font-size: 25px;
+    text-align: center;
+}
+.card-body{
+    background-color: rgb(196, 196, 128);
+}
+#book{
+    background-color:  rgba(25, 10, 112, 0.947);
+}
+#us{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.card-titlee{
+    font-size: 25px;
+    text-align: center;
+}
+.card-bodyy{
+    background-color: rgb(255, 255, 255);
+    text-align: justify; 
+}
+.card-titlee{
+    color: #1b638c;
+}
+.card-textt{
+    color: #2ca0e4;
+}
+.card-bodyyy{
+    background-color: rgb(255, 255, 255);
+    text-align: justify; 
+}
+.ti-star f{
+    color: #ffc800;
+}
+.checked{
+    color: orange;
+}
