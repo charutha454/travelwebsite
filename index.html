@@ -17,40 +17,40 @@
     <nav id="navbar" style="height: 100px; font-size: 30px; background-color: rgba(25, 10, 112, 0.947); display: flex; justify-content: center;" class="navbar navbar-expand-lg p-5 ml-5">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="./4-creative-world-map-remake-removebg-preview.png" width="80px" height="80px" alt="no image" id="logo"></a>
-          <a class="navbar-brand" href="#"><b style="color: rgb(253, 0, 0); font-size: 30px;">Boho<span style="color: brown;">Boundaries</span></b></a>
+          <a class="navbar-brand" href="#"><b style="color: rgb(255, 255, 255); font-size: 30px;">BohoBoundaries</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div style="color: aliceblue;" class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item" style="color: aliceblue;">
-                <a class="nav-link active" aria-current="page" href="#">ABOUT</a>
+              <li class="nav-item" style="font-size: 25px; color: #ffffff;">
+                <a class="nav-link" href="#"><i class="fa-solid fa-eject fa-xs"></i><b> ABOUT</b></a>
+              </li>             
+              <li class="nav-item" style="font-size: 25px; color: #ffffff;">
+                <a class="nav-link" href="#"><i class="fa-solid fa-hotel fa-xs"></i><b> HOTELS</b></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">DISCOVER</a>
+              <li class="nav-item" style="font-size: 25px; color: #ffffff;">
+                <a class="nav-link" href="#"><i class="fa-solid fa-plane-circle-check fa-xs"></i><b> FLIGHTS</b></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">HOTELS</a>
+              <li class="nav-item" style="font-size: 25px; color: #ffffff;">
+                <a class="nav-link" href="#"><i class="fa-solid fa-suitcase fa-xs"></i><b> TRIPS</b></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">FLIGHTS</a>
+              <li class="nav-item" style="font-size: 25px; color: #ffffff;">
+                <a class="nav-link" href="#"><i class="fa-solid fa-ship fa-xs"></i><b> CRUISES</b></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">TRIPS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SIGN UP/IN</a>
+              <li class="nav-item" style="font-size: 25px; color: #ffffff;">
+                <a class="nav-link" href="#"><i class="fa-brands fa-google fa-xs"></i><b> SIGN UP/IN</b></a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-        <div style="display: flex; justify-content: center;" id="main"><br><br><br><br><br><br><br><br>
+        <div class="pb-5" style="display: flex; justify-content: center;" id="main"><br><br><br><br><br><br><br><br>
             <div id="welcome">
-              <h1 style="display: flex; justify-content: center;">WELCOME TO</h1>
-               <h2 class="mt-1">BohoBoundaries</h2>
-               <h3><p style="font-size: 30px; display: flex; justify-content: center;">Discover the world, one unforgettable adventure at a time.</p></h3><br>
-               <button class="btn px-5 py-4" style="border-radius: none; font-size: 25px; color: #ffffff; background-color: #fffc3b;margin-left: 35%;" ><b>EXPLORE MORE</b></button>
+              <!-- <h1 style="display: flex; justify-content: center;">WELCOME TO</h1> -->
+               <h2 id="title">BohoBoundaries</h2>
+               <h3><p style="font-size: 40px; display: flex; justify-content: center;">  Discover the world, one unforgettable adventure at a time.</p></h3><br>
+               <button id="explore" class="btn px-5 py-4" style="border-radius: 4px; font-size: 25px; color: #000; color: #ffffff; background-color: #ffa008;margin-left: 35%;" ><b>EXPLORE MORE</b></button>
             </div> <br><br><br>
       </div><hr>
       <div><br>
@@ -62,13 +62,14 @@
             </div>
           </form><br><br>
         </div ><hr>
-        <div style="display: flex;justify-content: center;">
+       <!--  <div style="display: flex;justify-content: center;">
+            <h1 class="d-flex justify-content-md-center" style="font-size: 60px; text-decoration: none;"><b>BOOKINGS</b></h1><br>
             <a class="btn btn-primary" href="#" role="button">Link</a>
 <button class="btn btn-primary" type="submit">Button</button>
 <input class="btn btn-primary" type="button" value="Input">
 <input class="btn btn-primary" type="submit" value="Submit">
 <input class="btn btn-primary" type="reset" value="Reset">
-        </div>
+        </div> -->
       <!-- <div class="book"><br>
         <h1 class="d-flex justify-content-md-center" style="font-size: 60px; text-decoration: none;"><b>BOOKINGS</b></h1><br>
         <ul class="list-group list-group-horizontal d-flex justify-content-md-center" style="text-decoration: none;">
@@ -94,7 +95,7 @@
       </div> -->
         <div><br>
             <h1 class="d-flex justify-content-md-center" style="font-size: 60px;"><b>Explore Unique Tourism Gems Across The Globe</b></h1><br>
-            <div class="container-fluid border border-primary"> <!-- to remove space we change to ontainer fluid -->
+            <div class="container-fluid "> <!-- to remove space we change to ontainer fluid -->
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -108,36 +109,36 @@
                     <div class="carousel-item active">
                       <img src="./nyc.jpg"  alt="no image" width="100%" height="400px">
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>NEW YORK CITY</h5>
-                        <p>The city that never sleeps, where dreams come true and every street has a story. Explore the iconic skyline, vibrant neighborhoods, and endless possibilities!</p>
+                        <h5 style="font-size: 50px;"><b>NEW YORK CITY</b></h5>
+                        <p style="font-size: 20px;">The city that never sleeps, where dreams come true and every street has a story. Explore the iconic skyline, vibrant neighborhoods, and endless possibilities!</p>
                       </div>
                     </div>
                     <div class="carousel-item active">
                         <img src="./taj.jpg"  alt="no image" width="100%" height="400px">
                         <div class="carousel-caption d-none d-md-block">
-                          <h5>DELHI</h5>
-                          <p>Where history meets modernity, and every corner tells a timeless tale!</p>
+                          <h5 style="font-size: 50px;"><b>DELHI</b></h5>
+                          <p style="font-size: 20px;">Where history meets modernity, and every corner tells a timeless tale!</p>
                         </div>
                       </div>
                       <div class="carousel-item active">
                         <img src="./gate.jpg"  alt="no image" width="100%" height="400px">
                         <div class="carousel-caption d-none d-md-block">
-                          <h5>MUMBAI</h5>
-                          <p>The city of dreams, where every street buzzes with life and endless possibilities await!</p>
+                          <h5 style="font-size: 50px;"><b>MUMBAI</b></h5>
+                          <p style="font-size: 20px;">The city of dreams, where every street buzzes with life and endless possibilities await!</p>
                         </div>
                       </div>
                     <div class="carousel-item">
-                      <img src="./pppp.jpg"  alt="no image" width="100%" height="400px">
+                      <img src="https://www.presetpro.com/wp-content/uploads/2019/01/HDR-Photography-Beautiful-Paris-Presetpro.com_.jpg"  alt="no image" width="100%" height="400px">
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>PARIS</h5>
-                        <p>The City of Light, where romance, art, and history blend seamlessly. Stroll along the Seine, marvel at iconic landmarks, and savor the charm of every cobblestone street.</p>
+                        <h5 style="font-size: 50px;"><b>PARIS</b></h5>
+                        <p style="font-size: 20px;">The City of Light, where romance, art, and history blend seamlessly. Stroll along the Seine, marvel at iconic landmarks, and savor the charm of every cobblestone street.</p>
                       </div>
                     </div>
                     <div class="carousel-item">
                       <img src="./syyy.webp"  alt="no image" width="100%" height="400px">
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>SYDNEY</h5>
-                        <p>Where stunning harbor views meet iconic landmarks. Dive into the vibrant culture, pristine beaches, and unforgettable adventures in Australia's dazzling gem!</p>
+                        <h5 style="font-size: 50px;"><b>SYDNEY</b></h5>
+                        <p style="font-size: 20px;">Where stunning harbor views meet iconic landmarks. Dive into the vibrant culture, pristine beaches, and unforgettable adventures in Australia's dazzling gem!</p>
                       </div>
                     </div>
                   </div>
@@ -153,11 +154,11 @@
                </div>
 
         </div><br><br><hr>
-        <div>
+        <div id="packages">
             <h1 class="d-flex justify-content-md-center" style="font-size: 50px;"><b>Captivating Tour Packages For Every Wanderlust</b></h1>
             <div class="row row-cols-1 row-cols-md-2 g-4 p-5">
                 <div class="col">
-                  <div class="card">
+                  <div class="cards">
                     <img src="https://www.travelandleisure.com/thmb/nDDNqO2EctQhiIfZrxeXTF47zhE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-koh-phi-phi-PLACESTHAILAND1023-09b9d347b3cd4844b4ae19e4e06a9a6d.jpg"  width="100%" height="300px" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">TEMPTING THAILAND-2024</h5>
@@ -165,7 +166,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="cards">
                     <img src="https://lp-cms-production.imgix.net/2021-04/shutterstockRF_1019924119.jpg"  width="100%" height="300px" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">DELIGHTFUL VIETNAM-CAMBODIA</h5>
@@ -174,7 +175,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="cards">
                     <img src="https://static.toiimg.com/thumb/msid-102933784,width-748,height-499,resizemode=4,imgsize-149868/.jpg"  width="100%" height="300px" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">TREMENDOUS TURKEY</h5>
@@ -182,7 +183,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card">
+                  <div class="cards">
                     <img src="https://bharatjourneys.com/wp-content/uploads/2023/02/image-shim-manali.jpg" 
                     width="100%" height="300px" class="card-img-top" alt="...">
                     <div class="card-body">
@@ -198,9 +199,9 @@
         </div> -->
         <div class="container-dark d-flex justify-content-center align-items-center">
             <div class="row p-5" id="about">
-              <h1 class="mt-1 d-flex justify-content-center align-items-center">ABOUT</h1>
+              <h1 class="mt-1 d-flex justify-content-center align-items-center"><b>ABOUT</b></h1>
               <div id="hr" class="mt-1"></div>
-              <p class="mt-4 d-flex justify-content-center align-items-center" style="font-size: 20px; color: #061b2c;">BohoBoundaries</span>, your gateway to unique and soulful travel experiences. Embrace the freedom of bohemian adventures as we guide you to the world's hidden treasures. Discover vibrant cultures, breathtaking landscapes, and authentic local experiences tailored to your wanderlust. Join us on a journey beyond boundaries!</p><br><br>
+              <p class="mt-4 d-flex justify-content-center align-items-center" style="font-size: 25px; color: #000; color: #061b2c;">BohoBoundaries</span>, your gateway to unique and soulful travel experiences. Embrace the freedom of bohemian adventures as we guide you to the world's hidden treasures. Discover vibrant cultures, breathtaking landscapes, and authentic local experiences tailored to your wanderlust. Join us on a journey beyond boundaries!</p><br><br>
             </div>
           </div>
         </div>
@@ -307,7 +308,7 @@
         </div>
 </section>
 <div></div><hr>
-<h2 class="elementor-heading-title elementor-size-default d-flex justify-content-md-center p-3">HAPPY CUSTOMERS</h2>		</div>
+<h2 class="elementor-heading-title elementor-size-default d-flex justify-content-md-center p-3"><b>HAPPY CUSTOMERS</b></h2>		</div>
 <div class="card-group">
     <div class="card shadow d-flex justify-content-center align-items-center p-3" style="border: none;">
       <img src="./unnamed(2).png" class=" rounded-circle" alt="no image" width="150px" height="150px" class="card-img-top" alt="...">

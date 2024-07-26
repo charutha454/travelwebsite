@@ -110,3 +110,44 @@
 .checked{
     color: orange;
 }
+.nav-item a:hover{
+    filter: brightness(3);
+    transform: scale(1.11);
+}
+/* a:after{
+    content: "";
+    position: absolute;
+    background-color: red;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+
+ }
+ a:hover:after{
+    width: 100%;
+
+ } */
+  #explore:hover{
+    filter: opacity(3);
+    transform: scale(1.03);
+  }
+  section:hover{
+    filter: drop-shadow(5);
+    transform: scale(1.09);
+
+  }
+  .cards:hover{
+    filter: opacity(3);
+    transform: scale(1.03);
+  }
+  /* #title:hover{
+    filter: brightness(3);
+    transform: scale(1.03);
+    
+  } */
+  .navbar-brand:hover{
+    filter: brightness(1);
+    transform: scale(1.03);
+  }
