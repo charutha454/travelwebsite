@@ -142,11 +142,11 @@
     filter: opacity(3);
     transform: scale(1.03);
   }
-  /* #title:hover{
+  #title:hover{
     filter: brightness(3);
     transform: scale(1.03);
     
-  } */
+  }
   .navbar-brand:hover{
     filter: brightness(1);
     transform: scale(1.03);
